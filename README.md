@@ -258,7 +258,8 @@ Some notable findings from the analysis include:
 ├── AI Loan Analytics.ipynb
 ├── Loan_Portfolio_Analytics_Report.xlsx
 ├── README.md
-└── requirements.txt
+├──  requirements.txt
+└── .env.example
 ```
 
 ---
@@ -280,6 +281,23 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## Configure the Gemini API Key
+
+This project uses the Google Gemini API for AI-powered conversational data analysis through PandasAI and LangChain.
+
+1. Create a `.env` file in the project root directory.
+2. Copy .env.example to .env and replace YOUR_GEMINI_API_KEY with your own Gemini API key.
+3. Add your Gemini API key:
+
+```text
+GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+3. Save the file and run the notebook.
+
+**Note:** The `.env` file is intentionally excluded from the repository to protect API credentials.
+
 
 ## Running the Project
 
