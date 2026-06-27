@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+
+pandasai
+langchain
+langchain-experimental
+langchain-community
+
+google-generativeai
+
+jupyter
+ipykernel
