@@ -4,13 +4,17 @@ matplotlib
 seaborn
 scikit-learn
 openpyxl
-
-pandasai
-langchain
-langchain-experimental
-langchain-community
-
-google-generativeai
-
 jupyter
-ipykernel
+python-dotenv
+
+# AI Libraries
+pandasai
+pandasai-litellm
+litellm
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain-google-genai
+google-generativeai
+tabulate
